@@ -1,0 +1,81 @@
+/* Introduccion */
+
+.intro{
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.intro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+
+.intro .intro-title{
+  color: #fff;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.intro .intro-subtitle{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.intro .intro-contenido{
+    text-align: center;
+    position: absolute;
+}
+
+.intro .text-slider-items{
+  display:none;
+}
+
+.background-imagen{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell{
+  display:table-cell;
+  vertical-align: middle;
+}
+
+/* Animacion typed write */
+.typewriter h1 {
+  color: #fff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .30em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
