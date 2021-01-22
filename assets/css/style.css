@@ -1,5 +1,9 @@
-/* Introduccion */
+/* Scroll */
+* {
+  scroll-behavior: smooth;
+}
 
+/* Introduccion */
 .intro{
   height: 100vh;
   position: relative;
@@ -54,3 +58,65 @@
   display:table-cell;
   vertical-align: middle;
 }
+
+
+/* About session-------------------------------- */
+
+.about-mf .box-shadow-full{
+  padding-top:4rem;
+  padding-bottom:4rem;
+}
+
+.about-mf .about-img{
+  margin-bottom: 2rem;
+}
+
+.about-letter{
+    font-family:"Segoe UI";
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+
+.skill-fondo{
+  color: #4e4e4e;
+}
+
+.skill-titulo{
+  font-weight: 600;
+  color: #0078ff;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #0078ff;
+}
+
+
+
+
+/* -------------------------------------------------- */
+
+/* SECTIONS */
+.sect-4{
+  padding: 4rem 0;
+}
+
+.sect-pt4{
+  padding-top:4rem ;
+}
+
+
+
+/* -------------------------------------------------- */
+
