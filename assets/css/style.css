@@ -1,14 +1,20 @@
-/* Scroll */
+/* Scroll VER EFECTO DE SCROLL!!!! */
 * {
   scroll-behavior: smooth;
 }
 
 /* General */
 body{
-  background: rgba(222, 228, 231, 0.199);
+  background: rgba(168, 182, 189, 0.199);
 }
 .box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+ion-icon {
+  color: #0078ff;
+  font-size: 38px;
+  
 }
 
 /* ------------------------------------------------------ */
@@ -159,14 +165,8 @@ body{
 
 .subtitle-a {
   color: #4e4e4e;
-}
-
-.subtitle{
-  margin: 20px;
   font-style: italic;
 }
-
-
 
 .line-mf {
   width: 85px;
@@ -243,48 +243,62 @@ body{
 
 /* PORTAFOLIO SECTION */
 
-.portafolio-box{
+.work-box{
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 1rem;
+}
+
+.work-box:hover img{
+  transform: scale(1.3);
+}
+
+.work-img{
+  display: block;
+  overflow: hidden;
+}
+
+.work-img img{
+  width: 100%;
+  height:100%;
+  transition:all 1.5s;
+}
+
+.work-content{
+  padding: 2rem 3% 1rem 4%;
+}
+
+.work-content .w-more{
+  color:#4e4e4e;
+  font-size: 1rem;
+}
+
+.work-content .w-like{
+  font-size: 2.5rem;
+  color: #0078ff;
+  float: right;
+}
+
+.work-content .w-like a{
+  color: #0078ff;
+}
+
+.w-title{
+  font-size:1.2rem
+}
+
+.w-name-project{
+  color: #0078ff;
+}
+
+.w-date{
 
 }
 
-.portafolio-box:hover img{
-    transform: scale(1.3);
-}
 
-.portafolio-img img{
-  transition: all 1s;
-}
-
-.portafolio-content{
-  padding:2rem 3% 1rem 4%;
-}
-
-.portafolio-content .w-more .w-category .w-date{
-  color:#284ea0;
-  font-size: .8rem;
-}
-
-.w-category{
-  color: #284ea0;
-}
-
-.portafolio-content .w-like{
-  color: #284ea0;
-  
-}
-
-.enlace-port{
-  font-size: 1.2rem;
-}
-.portafolio-title{
-  font-size: 1.2rem;
-}
-
-/* --------------------------------------------- */
+/* End styles portafolio sections */
 
 /* Animaciones */
 @-webkit-keyframes animate-loading {
