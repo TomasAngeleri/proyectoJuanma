@@ -11,8 +11,6 @@ body{
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
-
-
 /* ------------------------------------------------------ */
 
 /* Introduccion */
@@ -166,6 +164,7 @@ body{
 .title-left{
   font-size: 2rem;
   position: relative;
+  padding: 10px;
 }
 
 .subtitle-a {
@@ -307,8 +306,9 @@ body{
 }
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
+
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
     margin-top: 3rem;
@@ -316,6 +316,45 @@ body{
   }
 }
 
+.contacts{
+  margin-top: 0px;
+  font-size: 15px;
+  
+  
+}
+
+.list-icon{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  line-height: 2;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+
+.contact-title-left{
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  position: relative;
+}
+.contact-title-right{
+  margin-top: -10px;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .contact-title-right{
+    padding-top: 2rem;
+  }
+}
+
+.contact-img-whatsup{
+  width: 35px;
+  margin-top: -2px;
+}
 
 
 
