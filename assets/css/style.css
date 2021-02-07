@@ -351,11 +351,29 @@ body{
   }
 }
 
-.contact-img-whatsup{
+.contact-img{
   width: 35px;
   margin-top: -2px;
+  margin-right: 8px;
 }
 
+.contact-wa, .contact-insta, .contact-face, .contact-linkedIn{
+  margin-bottom: 20px;
+} 
+
+.contact-insta img{
+  border-radius: 8px;
+}
+
+.contact-linkedIn img{
+  width: 6%;  
+  margin-right: 15px;
+
+}
+
+/* .redes-sociales div img{
+  margin-right:10px;
+} */
 
 
 
