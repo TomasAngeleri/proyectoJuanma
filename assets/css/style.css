@@ -363,10 +363,11 @@ body{
 
 .contact-insta img{
   border-radius: 8px;
+  width: 8%;  
 }
 
 .contact-linkedIn img{
-  width: 6%;  
+  width: 7%;  
   margin-right: 15px;
 
 }
